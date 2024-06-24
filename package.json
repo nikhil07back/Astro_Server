@@ -1,0 +1,38 @@
+{
+  "name": "astrologyserver",
+  "version": "1.0.0",
+  "description": "about astrology",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "build": "babel src -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "messagebird": "^4.0.1",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.0.3",
+    "multer": "^1.4.5-lts.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.0.2",
+    "razorpay": "^2.9.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3"
+  }
+
+}
